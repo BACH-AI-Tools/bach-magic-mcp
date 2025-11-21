@@ -4,6 +4,8 @@
 
 Magic Component Platform (MCP) is a powerful AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions. It integrates seamlessly with popular IDEs and provides a streamlined workflow for UI development.
 
+> **基于原项目**: 此项目基于 [magic-mcp](https://github.com/21st-dev/magic-mcp) 修改而来
+
 ## 🌟 Features
 
 - **AI-Powered UI Generation**: Create UI components by describing them in natural language
@@ -74,7 +76,7 @@ If you prefer manual setup, add this to your IDE's MCP config file:
   "mcpServers": {
     "@21st-dev/magic": {
       "command": "npx",
-      "args": ["-y", "@21st-dev/magic@latest", "API_KEY=\"your-api-key\""]
+      "args": ["-y", "bach-magic@latest", "API_KEY=\"your-api-key\""]
     }
   }
 }
@@ -113,7 +115,7 @@ Add the following JSON block to your User Settings (JSON) file in VS Code. You c
     "servers": {
       "@21st-dev/magic": {
         "command": "npx",
-        "args": ["-y", "@21st-dev/magic@latest"],
+        "args": ["-y", "bach-magic@latest"],
         "env": {
           "API_KEY": "${input:apiKey}"
         }
